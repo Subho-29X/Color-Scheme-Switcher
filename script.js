@@ -1,8 +1,8 @@
-const buttonss = document.querySelectorAll(".button");
+const buttons = document.querySelectorAll(".button");
 // console.log(buttons);
 const body = document.querySelector("body");
 
-buttonss.forEach(function (button) {
+buttons.forEach(function (button) {
   console.log(button);
   button.addEventListener("click", function (e) {
     console.log(e);
